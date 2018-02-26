@@ -49,19 +49,19 @@ class CV extends Component {
                 <div className="titreSection">Expérience Professionnelle</div>
                 <div>
                   <b>
-                    <span class="a320">2012</span> - Développeur informatique stagiaire - Google, Madrid </b>
-                  <ul>
-                    <li>Première expérience professionnelle.</li>
-                  </ul>
-                </div>
-                <div>
-                  <b>
                     <span class="a320">2014 > 2018</span> - Développeur informatique - GoEuro GmbH, Berlin</b>
                   <ul>
                     <li>Site internet de comparaison et de réservation de billets d’avion, de train et de bus.</li>
                     <li>10 millions de visiteurs uniques par mois.</li>
                     <li>Équipe multidisciplinaire et internationale. Anglais exclusivement utilisé.</li>
                     <li>3 ans d’expérience comme interviewer technique en entretiens d’embauche.</li>
+                  </ul>
+                </div>
+                <div>
+                  <b>
+                    <span class="a320">2012</span> - Développeur informatique stagiaire - Google, Madrid </b>
+                  <ul>
+                    <li>Première expérience professionnelle.</li>
                   </ul>
                 </div>
               </div>
