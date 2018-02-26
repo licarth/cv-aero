@@ -40,7 +40,7 @@
 }
 
 .page .section:not(:last-child) {
-    margin-bottom: 10mm;
+    margin-bottom: 5mm;
 }
 
 .content-grid {
@@ -96,29 +96,29 @@
 
 .sections {
     grid-area: center;
-    margin-left: 0.5cm;
-    margin-right: 0.5cm;
+    /* margin-left: 0.5cm; */
+    /* margin-right: 0.5cm; */
 }
 
 
 .experience > div:not(:last-child) {
-    margin-left: 3mm;
+    /* margin-left: 3mm; */
     margin-bottom: 4mm;
 }
 
-.experience > div {
+.experience > div:not(.titreSection) {
     margin-left: 3mm;
 }
 .aeronautique > div {
-    margin-left: 3mm;
+    /* margin-left: 3mm; */
 }
 
 .autres > div {
-    margin-left: 3mm;
+    /* margin-left: 3mm; */
 }
 
 .langues > div {
-    margin-left: 3mm;
+    /* margin-left: 3mm; */
 }
 
 .formation .a320 {
@@ -200,8 +200,10 @@ body {
   background-color: darkslateblue;
   color: white;
   font-weight: bold;
-  height: 2em;
-  line-height: 2em;
+  height: 1.5em;
+  line-height: 1.5em;
   padding-left: 1cm; 
   margin-bottom: 3mm;
+  font-size: 1.3em;
+  font-variant: small-caps;
 }

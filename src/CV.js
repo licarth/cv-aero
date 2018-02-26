@@ -4,7 +4,7 @@ import './CV.css';
 import airbusImage from './pfd.png'
 
 const A = (props) => {
-  return  <span className="a320" style={props.style}>{props.txt}</span>;
+  return <span className="a320" style={props.style}>{props.txt}</span>;
 }
 
 class CV extends Component {
@@ -16,7 +16,7 @@ class CV extends Component {
             <div className="nom">
               <b style={{ fontSize: `1.5em`, fontVariant: 'small-caps' }}>Thomas Carli</b>
               <br></br>
-              <A style={{ fontSize: `0.8em` }} txt='06 77 80 25 71'/>
+              <A style={{ fontSize: `0.8em` }} txt='06 77 80 25 71' />
               <br></br>
               thomascarli@gmail.com<br></br>
             </div>
@@ -24,7 +24,7 @@ class CV extends Component {
             <div className="background">
             </div>
             <div className="topright"></div>
-            <div class="titre" style={{ textAlign: `center`, fontVariant: 'small-caps' }}>
+            <div class="titre" style={{ fontSize: '2em', textAlign: `center`, fontVariant: 'small-caps' }}>
               <b>Candidat à la formation Cadets Air France <A txt='2018' /></b>
             </div>
 
@@ -33,8 +33,7 @@ class CV extends Component {
             </div>
             <div class="sections">
               <div class="section aeronautique">
-                <h1>aéronautique</h1>
-                <hr></hr>
+                <div className="titreSection">Aéronautique</div>
                 <div class="gridcontainer">
                   <div>
                     <b>ULM</b>
@@ -47,8 +46,7 @@ class CV extends Component {
                 </div>
               </div>
               <div class="section experience">
-                <h1>expérience professionnelle</h1>
-                <hr></hr>
+                <div className="titreSection">Expérience Professionnelle</div>
                 <div>
                   <b>
                     <span class="a320">2012</span> - Développeur informatique stagiaire - Google, Madrid </b>
@@ -68,9 +66,7 @@ class CV extends Component {
                 </div>
               </div>
               <div class="section formation">
-                {/* <div className="titreSection">FORMATION</div> */}
-                <h1>formation</h1>
-                <hr></hr>
+                <div className="titreSection">Formation</div>
                 <div class="gridcontainer" style={{ marginLeft: `3mm` }}>
                   <div>
                     <b>
@@ -104,12 +100,10 @@ class CV extends Component {
                   <div>
                     Baccalauréat scientifique (mention Très Bien).
                         </div>
-                  <br></br>
                 </div>
               </div>
               <div class="section langues">
-                <h1>langues</h1>
-                <hr></hr>
+                <div className="titreSection">Langues</div>
                 <div class="gridcontainer" style={{ gridTemplateColumns: `1fr 7fr 2fr` }}>
                   <div>Anglais</div>
                   <div>
@@ -118,9 +112,9 @@ class CV extends Component {
                     <b>TOEIC</b> Listening and Reading - 2 Février 2018, Paris
                             <br></br>Listening
                             <span class="a320 b"> 495/495 </span>
-                    - Reading 
+                    - Reading
                             <span class="a320 b"> 495/495 </span>
-                    - Total 
+                    - Total
                             <span class="a320 b"> 990/990 </span>
                   </div>
                   <div>
@@ -133,8 +127,7 @@ class CV extends Component {
                 </div>
               </div>
               <div class="section autres">
-                <h1>autres activités</h1>
-                <hr></hr>
+              <div className="titreSection">Autres Activités</div>
                 <div class="gridcontainer" style={{ gridTemplateColumns: `3cm 1fr` }}>
                   <div>
                     <b>Associations</b>
