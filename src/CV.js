@@ -18,7 +18,10 @@ class CV extends Component {
               <br></br>
               <A style={{ fontSize: `0.8em` }} txt='06 77 80 25 71' />
               <br></br>
-              thomascarli@gmail.com<br></br>
+              thomas.carli@gmail.com
+              <br></br>
+              <A style={{ fontSize: `0.8em` }} txt='28' /> ans
+              <br></br>
             </div>
 
             <div className="background">
@@ -54,6 +57,8 @@ class CV extends Component {
                     <li>Site internet de comparaison et de réservation de billets d’avion, de train et de bus.</li>
                     <li>10 millions de visiteurs uniques par mois.</li>
                     <li>Équipe multidisciplinaire et internationale. Anglais exclusivement utilisé.</li>
+                    <li>Développement et maintenance d'applications distribuées.</li>
+                    <li>Traitement de données du transport aérien, ferroviaire et routier.</li>
                     <li>3 ans d’expérience comme interviewer technique en entretiens d’embauche.</li>
                   </ul>
                 </div>
@@ -133,7 +138,7 @@ class CV extends Component {
                   <div>
                     <b>Sports</b>
                   </div>
-                  <div>Ski (licencié FFS, compétition en 2017-2018) - Roller - Tennis - Kitesurf & Land kiteboarding</div>
+                  <div>Ski (licencié FFS, compétition en 2017-2018) - Roller - Tennis - Kitesurf</div>
 
                   <div>
                     <b>Soutien scolaire</b>

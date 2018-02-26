@@ -142,6 +142,7 @@ ul {
     display: grid;
     margin-left: 0.5cm;
     grid-template-columns: 2cm 1fr;
+    grid-row-gap: 1mm;
 }
 
 h1 {
