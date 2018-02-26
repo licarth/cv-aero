@@ -68,8 +68,9 @@ class CV extends Component {
                 </div>
               </div>
               <div class="section formation">
-                <div className="titreSection">FORMATION</div>
-                {/* <hr></hr> */}
+                {/* <div className="titreSection">FORMATION</div> */}
+                <h1>formation</h1>
+                <hr></hr>
                 <div class="gridcontainer" style={{ marginLeft: `3mm` }}>
                   <div>
                     <b>

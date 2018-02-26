@@ -96,8 +96,8 @@
 
 .sections {
     grid-area: center;
-    /* margin-left: 0.5cm; */
-    /* margin-right: 0.5cm; */
+    margin-left: 0.5cm;
+    margin-right: 0.5cm;
 }
 
 
