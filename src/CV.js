@@ -60,9 +60,6 @@ class CV extends Component {
                 <div>
                   <b>
                     <span class="a320">2012</span> - Développeur informatique stagiaire - Google, Madrid </b>
-                  <ul>
-                    <li>Première expérience professionnelle.</li>
-                  </ul>
                 </div>
               </div>
               <div class="section formation">
@@ -109,13 +106,8 @@ class CV extends Component {
                   <div>
                     <span class="a320 b">C2</span> - 5 ans d’expérience professionnelle
                             <br></br>
-                    <b>TOEIC</b> Listening and Reading - 2 Février 2018, Paris
-                            <br></br>Listening
-                            <span class="a320 b"> 495/495 </span>
-                    - Reading
-                            <span class="a320 b"> 495/495 </span>
-                    - Total
-                            <span class="a320 b"> 990/990 </span>
+                    <b>TOEIC</b> <span class="a320 b"> 990/990 </span> Listening and Reading - 28/02/2018
+                            <br></br>
                   </div>
                   <div>
                     Espagnol
