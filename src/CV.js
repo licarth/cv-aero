@@ -116,7 +116,7 @@ class CV extends Component {
                   </div>
                   <div>
                     Espagnol
-                            <span class="a320 b"> B2</span>
+                            <span class="a320 b"> B1</span>
                     <br></br>
                     <br></br> Allemand
                             <span class="a320 b"> A2</span>
