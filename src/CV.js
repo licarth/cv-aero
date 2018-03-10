@@ -5,6 +5,7 @@ import airbusImage from './pfd.png'
 import planeur from './planeur.svg'
 import cravate from './cravate.svg'
 import education from './education.svg'
+import sports from './sports.svg'
 import Gauge from 'a320-ecam-gauges'
 
 const A = (props) => {
@@ -144,6 +145,9 @@ class CV extends Component {
                 </div>
               </div>
               <div class="section autres">
+                <div className="logoleft">
+                  <img src={sports} style={{ width: '1.7cm' }} />
+                </div>
                 <div className="titreSection">Autres Activités</div>
                 <div class="gridcontainer content" style={{ gridTemplateColumns: `3cm 1fr` }}>
                   <div>

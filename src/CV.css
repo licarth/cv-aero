@@ -220,7 +220,7 @@ body {
     left: calc(-1 * var(--leftcol-width));
     width: var(--leftcol-width);
     top: 50%;
-    transform: translateY(-50%);
+    transform: translateY(-25%);
     color: white;
     text-align: center;
     font-weight: bold;
