@@ -1,0 +1,14 @@
+<svg 
+    xmlns="http://www.w3.org/2000/svg" 
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+     version="1.1" 
+     x="0px" y="0px" 
+     viewBox="0 0 96 120" 
+     fill="white"
+     enable-background="new 0 0 96 96" 
+     xml:space="preserve">
+    <polygon points="79,61 81,69 75,69 77,61 77,47.5 48,62 12,44 48,26 84,44 79,46.5 "/>
+    <path d="M70,53v11.55C63.43,68.03,55.95,70,48,70s-15.43-1.97-22-5.45V53l22,11.12L70,53z"/>
+    <!-- <text x="0" y="111" fill="#000000" font-size="5px" font-weight="bold" font-family="'Helvetica Neue', Helvetica, Arial-Unicode, Arial, Sans-serif">Created by Simon Sim</text> -->
+    <!-- <text x="0" y="116" fill="#000000" font-size="5px" font-weight="bold" font-family="'Helvetica Neue', Helvetica, Arial-Unicode, Arial, Sans-serif">from the Noun Project</text> -->
+</svg>

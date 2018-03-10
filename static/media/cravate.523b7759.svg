@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" 
+	xmlns="http://www.w3.org/2000/svg" 
+	xmlns:xlink="http://www.w3.org/1999/xlink" 
+	x="0px" y="0px" 
+	viewBox="35.003 0 29.994 125" 
+	enable-background="new 35.003 0 29.994 100" 
+	fill="white"
+	xml:space="preserve">
+	<g>
+		<path d="M42.433,21.227c0-3.714,14.857-3.714,14.857,0c0,14.502,7.707,62.292,7.707,62.292L49.863,100L35.003,83.037
+		C35.003,83.037,42.433,35.401,42.433,21.227z"/>
+		<path d="M60.311,2.718c0-3.624-21.196-3.624-21.196,0c0,2.492,1.684,14.595,3.377,12.907c2.965-2.967,11.537-2.967,14.502,0
+		C58.684,17.312,60.311,5.951,60.311,2.718z"/>
+	</g>
+	<!-- <text x="35.003" y="115" fill="#000000" font-size="5px" font-weight="bold" font-family="'Helvetica Neue', Helvetica, Arial-Unicode, Arial, Sans-serif">Created by Roman J. Sokolov</text> -->
+	<!-- <text x="35.003" y="120" fill="#000000" font-size="5px" font-weight="bold" font-family="'Helvetica Neue', Helvetica, Arial-Unicode, Arial, Sans-serif">from the Noun Project</text> -->
+</svg>
