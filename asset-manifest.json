@@ -1,8 +1,8 @@
 {
-  "main.css": "static/css/main.07142cb0.css",
-  "main.css.map": "static/css/main.07142cb0.css.map",
-  "main.js": "static/js/main.ba1da58d.js",
-  "main.js.map": "static/js/main.ba1da58d.js.map",
+  "main.css": "static/css/main.507afc8f.css",
+  "main.css.map": "static/css/main.507afc8f.css.map",
+  "main.js": "static/js/main.d08a8dd3.js",
+  "main.js.map": "static/js/main.d08a8dd3.js.map",
   "static/media/Dosis-Bold.otf": "static/media/Dosis-Bold.3fdafce4.otf",
   "static/media/Dosis-Regular.otf": "static/media/Dosis-Regular.62edbe8d.otf",
   "static/media/a320pfd.woff": "static/media/a320pfd.ffce2dfb.woff",
@@ -10,5 +10,6 @@
   "static/media/education.svg": "static/media/education.25fd136a.svg",
   "static/media/logo.svg": "static/media/logo.5d5d9eef.svg",
   "static/media/pfd.png": "static/media/pfd.05e5845b.png",
-  "static/media/planeur.svg": "static/media/planeur.8c911b38.svg"
+  "static/media/planeur.svg": "static/media/planeur.8c911b38.svg",
+  "static/media/sports.svg": "static/media/sports.0cc9d68e.svg"
 }
