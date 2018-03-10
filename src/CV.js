@@ -2,6 +2,10 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './CV.css';
 import airbusImage from './pfd.png'
+import planeur from './planeur.svg'
+import cravate from './cravate.svg'
+import education from './education.svg'
+import Gauge from 'a320-ecam-gauges'
 
 const A = (props) => {
   return <span className="a320" style={props.style}>{props.txt}</span>;
@@ -31,13 +35,17 @@ class CV extends Component {
               <b>Candidat à la formation Cadets Air France <A txt='2018' /></b>
             </div>
 
-            <div class="left-col">
+            <div className="left-col">
               {/* <img id="plane" src={airbusImage} /> */}
             </div>
+
             <div class="sections">
               <div class="section aeronautique">
+                <div className="logoleft">
+                  <img src={planeur} style={{ width: '2cm' }} />
+                </div>
                 <div className="titreSection">Aéronautique</div>
-                <div class="gridcontainer">
+                <div class="gridcontainer content">
                   <div>
                     <b>ULM</b>
                   </div>
@@ -49,27 +57,35 @@ class CV extends Component {
                 </div>
               </div>
               <div class="section experience">
-                <div className="titreSection">Expérience Professionnelle</div>
-                <div>
-                  <b>
-                    <span class="a320">2014 > 2018</span> - Développeur informatique - GoEuro GmbH, Berlin</b>
-                  <ul>
-                    <li>Site internet de comparaison et de réservation de billets d’avion, de train et de bus.</li>
-                    <li>10 millions de visiteurs uniques par mois.</li>
-                    <li>Équipe multidisciplinaire et internationale. Anglais exclusivement utilisé.</li>
-                    <li>Développement et maintenance d'applications distribuées.</li>
-                    <li>Traitement de données du transport aérien, ferroviaire et routier.</li>
-                    <li>3 ans d’expérience comme interviewer technique en entretiens d’embauche.</li>
-                  </ul>
+                <div className="logoleft">
+                  <img src={cravate} style={{ width: '5mm' }} />
                 </div>
-                <div>
-                  <b>
-                    <span class="a320">2012</span> - Développeur informatique stagiaire - Google, Madrid </b>
+                <div className="titreSection">Expérience Professionnelle</div>
+                <div class="content">
+                  <div>
+                    <b>
+                      <span class="a320">2014 > 2018</span> - Développeur informatique - GoEuro GmbH, Berlin</b>
+                    <ul>
+                      <li>Site internet de comparaison et de réservation de billets d’avion, de train et de bus.</li>
+                      <li>10 millions de visiteurs uniques par mois.</li>
+                      <li>Équipe multidisciplinaire et internationale. Anglais exclusivement utilisé.</li>
+                      <li>Développement et maintenance d'applications distribuées.</li>
+                      <li>Traitement de données du transport aérien, ferroviaire et routier.</li>
+                      <li>3 ans d’expérience comme interviewer technique en entretiens d’embauche.</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <b>
+                      <span class="a320">2012</span> - Développeur informatique stagiaire - Google, Madrid </b>
+                  </div>
                 </div>
               </div>
               <div class="section formation">
+                <div className="logoleft">
+                  <img src={education} style={{ width: '20mm' }} />
+                </div>
                 <div className="titreSection">Formation</div>
-                <div class="gridcontainer" style={{ marginLeft: `3mm` }}>
+                <div class="gridcontainer content" >
                   <div>
                     <b>
                       <span class="a320">2014</span>
@@ -105,8 +121,12 @@ class CV extends Component {
                 </div>
               </div>
               <div class="section langues">
+                <div className="logoleft">
+                  <Gauge style={{ background: 'white' }} value={990.0} />
+                  TOEIC
+                </div>
                 <div className="titreSection">Langues</div>
-                <div class="gridcontainer" style={{ gridTemplateColumns: `1fr 7fr 2fr` }}>
+                <div class="gridcontainer content" style={{ gridTemplateColumns: `1fr 7fr 2fr` }}>
                   <div>Anglais</div>
                   <div>
                     <span class="a320 b">C2</span> - 5 ans d’expérience professionnelle
@@ -124,8 +144,8 @@ class CV extends Component {
                 </div>
               </div>
               <div class="section autres">
-              <div className="titreSection">Autres Activités</div>
-                <div class="gridcontainer" style={{ gridTemplateColumns: `3cm 1fr` }}>
+                <div className="titreSection">Autres Activités</div>
+                <div class="gridcontainer content" style={{ gridTemplateColumns: `3cm 1fr` }}>
                   <div>
                     <b>Associations</b>
                   </div>
