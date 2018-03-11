@@ -6,11 +6,55 @@ import planeur from './planeur.svg'
 import cravate from './cravate.svg'
 import education from './education.svg'
 import sports from './sports.svg'
+import uk from './uk.svg'
 import Gauge from 'a320-ecam-gauges'
 
 const A = (props) => {
   return <span className="a320" style={props.style}>{props.txt}</span>;
 }
+
+const LogoLeft = ({ img, size }) => {
+  return <div className="logoleft">
+    <div
+      style={{
+        width: '100%',
+        height: '100%',
+        zIndex: 2,
+        position: 'absolute'
+      }}>
+      <svg style={{ zIndex: 2 }} viewBox="0 0 200 200">
+        {/* <defs>
+        <filter id="f1" x="-20%" y="-20%" width="200%" height="200%">            <feOffset result="offOut" in="SourceAlpha" dx="2" dy="2" />
+            <feGaussianBlur result="blurOut" in="offOut" stdDeviation="1" />
+            <feBlend in="SourceGraphic" in2="blurOut" mode="normal" />
+          </filter>
+        </defs> */}
+        <circle cx="100" cy="100" r="100"
+        //  filter="url(#f1)"
+          />
+      </svg>
+    </div>
+    <div
+      style={{
+        width: '100%',
+        height: '100%',
+        zIndex: 3,
+        display: 'grid',
+        position: 'absolute'
+      }}>
+      <img src={img}
+        style={{
+          margin: 'auto',
+          width: size,
+        }}
+      />
+    </div>
+  </div>
+}
+
+LogoLeft.defaultProps = {
+  size: '80%',
+};
 
 class CV extends Component {
   render() {
@@ -42,9 +86,7 @@ class CV extends Component {
 
             <div class="sections">
               <div class="section aeronautique">
-                <div className="logoleft">
-                  <img src={planeur} style={{ width: '2cm' }} />
-                </div>
+                <LogoLeft img={planeur} />
                 <div className="titreSection">Aéronautique</div>
                 <div class="gridcontainer content">
                   <div>
@@ -58,9 +100,7 @@ class CV extends Component {
                 </div>
               </div>
               <div class="section experience">
-                <div className="logoleft">
-                  <img src={cravate} style={{ width: '5mm' }} />
-                </div>
+                <LogoLeft img={cravate} size={'90%'} />
                 <div className="titreSection">Expérience Professionnelle</div>
                 <div class="content">
                   <div>
@@ -82,9 +122,7 @@ class CV extends Component {
                 </div>
               </div>
               <div class="section formation">
-                <div className="logoleft">
-                  <img src={education} style={{ width: '20mm' }} />
-                </div>
+                <LogoLeft img={education} />
                 <div className="titreSection">Formation</div>
                 <div class="gridcontainer content" >
                   <div>
@@ -122,10 +160,12 @@ class CV extends Component {
                 </div>
               </div>
               <div class="section langues">
-                <div className="logoleft">
+                <LogoLeft img={uk} />
+
+                {/* <div className="logoleft">
                   <Gauge style={{ background: 'white' }} value={990.0} />
                   TOEIC
-                </div>
+                </div> */}
                 <div className="titreSection">Langues</div>
                 <div class="gridcontainer content" style={{ gridTemplateColumns: `1fr 7fr 2fr` }}>
                   <div>Anglais</div>
@@ -145,9 +185,7 @@ class CV extends Component {
                 </div>
               </div>
               <div class="section autres">
-                <div className="logoleft">
-                  <img src={sports} style={{ width: '1.7cm' }} />
-                </div>
+                <LogoLeft img={sports} size='70%' />
                 <div className="titreSection">Autres Activités</div>
                 <div class="gridcontainer content" style={{ gridTemplateColumns: `3cm 1fr` }}>
                   <div>

@@ -4,10 +4,11 @@
 	xmlns="http://www.w3.org/2000/svg" 
 	xmlns:xlink="http://www.w3.org/1999/xlink" 
 	x="0px" y="0px" 
-	viewBox="35.003 0 29.994 125" 
+	viewBox="-25 -10 150.994 125" 
 	enable-background="new 35.003 0 29.994 100" 
 	fill="white"
-	xml:space="preserve">
+	xml:space="preserve"
+	>
 	<g>
 		<path d="M42.433,21.227c0-3.714,14.857-3.714,14.857,0c0,14.502,7.707,62.292,7.707,62.292L49.863,100L35.003,83.037
 		C35.003,83.037,42.433,35.401,42.433,21.227z"/>

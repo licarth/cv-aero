@@ -30,6 +30,7 @@
 
 :root {
     --leftcol-width: 5cm;
+    --background-color: darkslateblue;
   }
 
 .titre {
@@ -63,7 +64,7 @@
 
 .background{
     grid-area: 1 / 1 / span 3 / span 1;
-    background: darkslateblue;
+    background: var(--background-color);
     padding-left: 1cm;  
     padding-right: 1cm;
     /* padding-top: 1cm; */
@@ -204,7 +205,7 @@ body {
 }
 
 .titreSection {
-  background-color: darkslateblue;
+  background-color: var(--background-color);
   color: white;
   font-weight: bold;
   height: 1.5em;
@@ -215,16 +216,43 @@ body {
   font-variant: small-caps;
 }
 
-.logoleft {
-    position: absolute;
-    left: calc(-1 * var(--leftcol-width));
-    width: var(--leftcol-width);
+.logoleft div {
+    /* position: absolute;
     top: 50%;
-    transform: translateY(-25%);
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    margin: auto;
+
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.logoleft svg {
+    fill: var(--background-color);
+    stroke: white;
+    stroke-width: 2mm;
+    overflow: visible;
+    /* box-shadow: 10px 10px 5px grey; */
+}
+
+.logoleft {
+    display: grid;
+    position: absolute;
+    left: -16mm;
+    top: -6mm;
+    width: 2cm;
+    height: 2cm;
+    /* left: calc(-1 * var(--leftcol-width)); */
+    /* width: var(--leftcol-width); */
+    /* top: 50%; */
+    /* transform: translateY(-25%); */
     color: white;
     text-align: center;
     font-weight: bold;
 }
+
+
 
 .logoleft .Gauge {
     margin: 0 auto;
