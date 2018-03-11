@@ -6,7 +6,9 @@ import planeur from './planeur.svg'
 import cravate from './cravate.svg'
 import education from './education.svg'
 import sports from './sports.svg'
+import uk from './uk.svg'
 import Gauge from 'a320-ecam-gauges'
+import Runway from './Runway'
 
 const A = (props) => {
   return <span className="a320" style={props.style}>{props.txt}</span>;
@@ -123,9 +125,12 @@ class CV extends Component {
               </div>
               <div class="section langues">
                 <div className="logoleft">
+                  <img src={uk} style={{ width: '2cm' }} />
+                </div>
+                {/* <div className="logoleft">
                   <Gauge style={{ background: 'white' }} value={990.0} />
                   TOEIC
-                </div>
+                </div> */}
                 <div className="titreSection">Langues</div>
                 <div class="gridcontainer content" style={{ gridTemplateColumns: `1fr 7fr 2fr` }}>
                   <div>Anglais</div>
@@ -171,9 +176,10 @@ class CV extends Component {
                 </div>
               </div>
             </div>
+                <Runway />
           </div>
         </div>
-      </div>
+      </div >
     );
   }
 }

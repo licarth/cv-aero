@@ -1,0 +1,98 @@
+
+.runway {
+    position: relative;
+    border: solid;
+    border-color: white;
+    border-width: 2mm;
+    grid-column: 1;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+
+.runway svg {
+    position: absolute;
+    height: 100%;
+    fill: "white";
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.tside {
+    display: grid;
+}
+
+.mark {
+    justify-content: stretch;	
+    position: absolute;
+    display: grid;
+    width: 100%;
+    padding-left: 2mm;
+    padding-right: 2mm;
+}
+
+.attentionPoint {
+    bottom: 20cm;
+    grid-gap: 40%;
+    height: 5%;
+    grid-template-columns: 1fr 1fr;
+}
+
+.centerline {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
+    padding-left: 48%;
+    padding-right: 48%;
+    bottom: 3cm;
+    grid-row-gap: 2cm;
+}
+
+.centerline .trect {
+    height: 2cm;
+}
+
+.threshold {
+    bottom: 2mm;
+    grid-gap: 3mm;
+    grid-template-columns: 1fr 1fr;
+    height: 4cm;
+}
+
+.three {
+    height: 1.5cm;
+    bottom: 10cm;
+    grid-gap: 20mm;
+    grid-template-columns: 1fr 1fr;
+}
+
+.marks {
+    display: grid;
+    position: absolute;
+    justify-content: stretch;	
+    height: 100%;
+    width: 100%;
+    grid-column-gap: 5mm;
+}
+
+.three .tside {
+    grid-gap: 2mm;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.threshold .tside {
+    grid-gap: 1mm;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.trect {
+    background-color: white;
+}
+
+
+.rwyNumber {
+    position: relative;
+    width: 2cm;
+    top: 22.7cm;
+    margin: 0 auto;
+}

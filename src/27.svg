@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="100mm"
+   height="100mm"
+   viewBox="0 0 100 100"
+   version="1.1"
+   id="svg8"
+   sodipodi:docname="27.svg"
+   inkscape:label="seven"
+   inkscape:version="0.92.2 (unknown)">
+  <defs
+     id="defs2">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath471">
+      <rect
+         style="fill:none;stroke-width:0.99999994"
+         id="rect473"
+         width="85.034035"
+         height="255.17302"
+         x="178.12102"
+         y="1.2959937" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath487">
+      <rect
+         style="fill:none;stroke-width:0.99999994"
+         id="rect489"
+         width="146.47212"
+         height="301.02545"
+         x="156.64413"
+         y="407.32419" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="309.71719"
+     inkscape:cy="-308.58902"
+     inkscape:document-units="mm"
+     inkscape:current-layer="svg8"
+     showgrid="false"
+     inkscape:window-width="1867"
+     inkscape:window-height="1025"
+     inkscape:window-x="53"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <polyline
+     id="polyline30-0"
+     points="215.126,682.271 192.445,682.271 249.111,469.651 183.949,469.651 183.949,427.169 283.167,427.169     215.126,682.271   "
+     style="display:inline;fill:#ffffff"
+     transform="matrix(0.31360005,0,0,0.31360005,-0.43928936,-123.94604)" />
+  <polyline
+     id="polyline16"
+     points="263.155,83.521     200.801,182.74 200.801,213.917 263.155,213.917 263.155,256.469 178.121,256.469 178.121,182.74 240.474,83.521 240.474,43.848     200.801,43.848 200.801,69.338 178.121,69.338 178.121,1.296 263.155,1.296 263.155,83.521   "
+     style="display:inline;stroke:#ffffff;stroke-width:0.294;stroke-linecap:round;stroke-linejoin:round;fill:#ffffff"
+     transform="matrix(0.31315199,0,0,0.31315199,-42.413053,9.6690708)" />
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-197)"
+     style="display:inline" />
+</svg>

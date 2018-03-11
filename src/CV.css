@@ -30,6 +30,7 @@
 
 :root {
     --leftcol-width: 5cm;
+    --background-color: rgb(83, 83, 83);
   }
 
 .titre {
@@ -63,7 +64,7 @@
 
 .background{
     grid-area: 1 / 1 / span 3 / span 1;
-    background: darkslateblue;
+    background: var(--background-color);
     padding-left: 1cm;  
     padding-right: 1cm;
     /* padding-top: 1cm; */
@@ -204,7 +205,7 @@ body {
 }
 
 .titreSection {
-  background-color: darkslateblue;
+  background-color: var(--background-color);
   color: white;
   font-weight: bold;
   height: 1.5em;
@@ -217,9 +218,13 @@ body {
 
 .logoleft {
     position: absolute;
-    left: calc(-1 * var(--leftcol-width));
-    width: var(--leftcol-width);
-    top: 50%;
+    /* left: calc(-1 * var(--leftcol-width)); */
+    /* width: var(--leftcol-width); */
+    /* top: 50%; */
+    display: none;
+    left: -1cm;
+    background: var(--background-color);
+    border-radius: 30px;
     transform: translateY(-25%);
     color: white;
     text-align: center;
