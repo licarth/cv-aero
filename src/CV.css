@@ -33,9 +33,29 @@
     --background-color: darkslateblue;
   }
 
+/* .topright {
+    grid-area: topright;
+    background-color: var(--background-color)
+} */
+
+.photo {
+    position: relative;
+    grid-area: left;
+    z-index: 100;
+    width: 30mm;
+    left: 170mm;
+    top: 0mm;
+    border: solid var(--background-color);
+    border-radius: 5mm;
+
+}
+
 .titre {
     font-size: 1.2em;
     margin: 1.5cm;
+    /* margin-left: 27mm; */
+    margin-right: 50mm;
+    margin-bottom: 15mm;
 }
 
 .page {
@@ -67,13 +87,11 @@
     background: var(--background-color);
     padding-left: 1cm;  
     padding-right: 1cm;
-    /* padding-top: 1cm; */
 }
 
 .nom {
-    z-index: 10;
+    z-index: 2;
     grid-area: left;
-    /* height: 100%; */
     color: white;
     padding-left: 0.5cm;
     padding-right: 0.5cm;
@@ -83,52 +101,17 @@
 .titre{
     grid-area: title;
 }
-
-.left-col{
-    height: 100%;
-    width: var(--leftcol-width);
-    grid-area: left;
-}
-/* 
-#plane {
-    height: 100%;
-    position: relative;
-    z-index: 10;
-    margin: auto;
-    margin-left: auto;
-    margin-right: auto;
-} */
-
 .sections {
     grid-area: center;
-    /* margin-left: 0.5cm; */
-    /* margin-right: 0.5cm; */
 }
 
 
 .experience > div:not(:last-child) {
-    /* margin-left: 3mm; */
     margin-bottom: 4mm;
-}
-
-/* .experience > div) {
-    margin-left: 3mm;
-} */
-.aeronautique > div {
-    /* margin-left: 3mm; */
-}
-
-.autres > div {
-    /* margin-left: 3mm; */
-}
-
-.langues > div {
-    /* margin-left: 3mm; */
 }
 
 .formation .a320 {
     position: relative;
-    /* top: 0.7mm; */
 }
 
 ul {
@@ -163,7 +146,6 @@ hr {
     position: relative;
     top: -2mm;
     padding: 0;
-    /* margin: 8px auto; */
     height: 0;
     width: 100%;
     max-height: 0;
@@ -216,24 +198,11 @@ body {
   font-variant: small-caps;
 }
 
-.logoleft div {
-    /* position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); */
-    margin: auto;
-
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
-}
-
 .logoleft svg {
     fill: var(--background-color);
     stroke: white;
     stroke-width: 2mm;
     overflow: visible;
-    /* box-shadow: 10px 10px 5px grey; */
 }
 
 .logoleft {
