@@ -208,7 +208,7 @@ const CV = () => {
             <br></br>
             thomas.carli@gmail.com
               <br></br>
-            <A style={{ fontSize: `0.8em` }} txt='28' /> ans
+            <A style={{ fontSize: `0.8em` }} txt='29' /> ans
               <br></br>
           </div>
 
