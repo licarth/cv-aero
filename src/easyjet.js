@@ -216,7 +216,7 @@ const CV = () => {
               Thomas Carli
             </b>
             <br />
-            <A style={{ fontSize: `0.8em` }} txt="06 77 80 25 71" />
+            <A style={{ fontSize: `0.8em` }} txt="+33 6 77 80 25 71" />
             <br />
             thomas.carli@gmail.com
             <br />
