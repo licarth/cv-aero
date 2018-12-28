@@ -1,13 +1,12 @@
 import React, { Component } from "react";
 import "./CV.css";
-import airbusImage from "./pfd.png";
 import planeur from "./planeur.svg";
 import cravate from "./cravate.svg";
 import education from "./education.svg";
 import sports from "./sports.svg";
 import uk from "./uk.svg";
-import Gauge from "a320-ecam-gauges";
 import photoIdentite from "./photo_identite.jpg";
+import { LogoLeft, P } from "./utils";
 
 const A = props => {
   return (
@@ -15,57 +14,6 @@ const A = props => {
       {props.txt}
     </span>
   );
-};
-
-const LogoLeft = ({ img, size }) => {
-  return (
-    <div className="logoleft">
-      <div
-        style={{
-          width: "100%",
-          height: "100%",
-          zIndex: 2,
-          position: "absolute",
-        }}
-      >
-        <svg style={{ zIndex: 2 }} viewBox="0 0 200 200">
-          {/* <defs>
-        <filter id="f1" x="-20%" y="-20%" width="200%" height="200%">            <feOffset result="offOut" in="SourceAlpha" dx="2" dy="2" />
-            <feGaussianBlur result="blurOut" in="offOut" stdDeviation="1" />
-            <feBlend in="SourceGraphic" in2="blurOut" mode="normal" />
-          </filter>
-        </defs> */}
-          <circle
-            cx="100"
-            cy="100"
-            r="100"
-            //  filter="url(#f1)"
-          />
-        </svg>
-      </div>
-      <div
-        style={{
-          width: "100%",
-          height: "100%",
-          zIndex: 3,
-          display: "grid",
-          position: "absolute",
-        }}
-      >
-        <img
-          src={img}
-          style={{
-            margin: "auto",
-            width: size,
-          }}
-        />
-      </div>
-    </div>
-  );
-};
-
-LogoLeft.defaultProps = {
-  size: "70%",
 };
 
 const Aero = () => {
@@ -103,11 +51,6 @@ const ExperiencePro = () => {
   const xpStyle = {
     marginBottom: "10px",
   };
-  const pStyle = {
-    textAlign: "justify",
-    textIndent: "20px",
-    margin: "0px 20px 0px 10px",
-  };
   return (
     <div class="section experience">
       <LogoLeft img={cravate} size={"90%"} />
@@ -118,21 +61,15 @@ const ExperiencePro = () => {
             <span class="a320">2018 > 2019</span> - Développeur informatique -
             Auto-Entrepreneur, Paris
           </b>
-          {/* <ul>
-            <li>
-              Missions pour 2 clients, basés respectivement à Clermont-Ferrand
-              et à Paris.
-            </li>
-          </ul> */}
-          <p style={pStyle}>
+          <P>
             J'ai choisi ce mode de trvail pour me laisser du temps et de la
             flexibilité, dans l'optique de passer des sélections de pilote, et
             d'intégrer une formation.
-          </p>
-          <p style={pStyle}>
+            </P>
+          <P>
             J'ai effectué des missions pour des clients basés à Paris et à
             Clermont-Ferrand.
-          </p>
+          </P>
         </div>
         <div style={xpStyle}>
           <b>
