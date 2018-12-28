@@ -52,10 +52,10 @@
 
 .titre {
     font-size: 1.2em;
-    margin: 1.5cm;
+    margin: 1cm;
     /* margin-left: 27mm; */
     margin-right: 50mm;
-    margin-bottom: 15mm;
+    margin-bottom: 5mm;
 }
 
 .page {
@@ -128,8 +128,9 @@ ul {
 
 .gridcontainer {
     display: grid;
-    grid-template-columns: 2cm 1fr;
+    grid-template-columns: auto 1fr;
     grid-row-gap: 1mm;
+    grid-column-gap: 5mm;
 }
 
 .content {

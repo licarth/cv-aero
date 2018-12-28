@@ -1,8 +1,15 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import CV from './CV';
-import registerServiceWorker from './registerServiceWorker';
+import React from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
+import Easyjet from "./easyjet";
+import AirFrance from "./airfrance";
+import registerServiceWorker from "./registerServiceWorker";
 
-ReactDOM.render(<CV />, document.getElementById('root'));
+ReactDOM.render(
+  <div>
+    <Easyjet />
+    <AirFrance />
+  </div>,
+  document.getElementById("root"),
+);
 registerServiceWorker();

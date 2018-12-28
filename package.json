@@ -2,7 +2,7 @@
   "name": "cv-aero-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://cvaero.licarth.com/",
+  "homepage": "https://licarth.github.io/cv-aero/",
   "dependencies": {
     "a320-ecam-gauges": "licarth/a320-ecam-gauges",
     "lodash": "^4.17.5",
